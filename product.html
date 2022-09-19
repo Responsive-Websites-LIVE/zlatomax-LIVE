@@ -1,0 +1,2043 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20220919171922"
+    />
+    <link rel="stylesheet" href="css/style.min.css?_v=20220919171922" />
+
+    <title>Zlatmax</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top top-header">
+          <div class="top-header__container _container">
+            <nav class="top-header__menu menu-top-header">
+              <ul data-da=".menu__body,991,1" class="menu-top-header__list">
+                <li class="menu-top-header__item menu-top-header__item_catalog">
+                  <a href="#" class="menu-top-header__link menu-top-header__link_catalog _icon-arrow-bottom"
+                    >Каталог товаров</a
+                  >
+                </li>
+                <li class="menu-top-header__item">
+                  <a href="#" class="menu-top-header__link">О нас</a>
+                </li>
+                <li class="menu-top-header__item">
+                  <a href="#" class="menu-top-header__link">Оплата и доставка</a>
+                </li>
+                <li class="menu-top-header__item">
+                  <a href="#" class="menu-top-header__link">Новости</a>
+                </li>
+                <li class="menu-top-header__item">
+                  <a href="#" class="menu-top-header__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+
+            <a href="#" class="top-header__user _icon-user"><span>Личный кабинет</span></a>
+
+            <ul class="menu">
+              <button type="button" class="menu__icon icon-menu">
+                <span></span>
+              </button>
+              <div class="menu__body"></div>
+            </ul>
+          </div>
+        </div>
+        <div class="header__body body-header">
+          <div class="body-header__container _container">
+            <a href="" class="body-header__logo _icon-logo"></a>
+            <div data-da=".catalog-header__container,480,1" class="body-header__search">
+              <form action="#" class="search-header">
+                <button type="submit" class="search-header__button _icon-search"></button>
+                <input placeholder="Поиск" type="text" class="search-header__input" />
+              </form>
+            </div>
+            <div class="body-header__actions actions-header">
+              <a href="#" class="actions-header__location _icon-location"> Москва </a>
+              <div data-da=".top-header__container,991,0" class="actions-header__phones phones-header">
+                <div data-spollers class="phones-header__items">
+                  <div class="phones-header__item">
+                    <a href="tel:88007771234" class="phones-header__phone"><span>8-800-777-12-34</span></a>
+                    <button
+                      type="button"
+                      data-spoller
+                      class="phones-header__arrow _icon-arrow-bottom"
+                    ></button>
+                    <ul class="phones-header__list">
+                      <li>
+                        <a href="tel:81923273274" class="phones-header__phone _icon-footer-phone"
+                          >8-192-327-32-74</a
+                        >
+                      </li>
+                      <li>
+                        <a href="tel:88407172244" class="phones-header__phone _icon-footer-phone"
+                          >8-840-717-22-44</a
+                        >
+                      </li>
+                      <li>
+                        <a href="tel:88007431265" class="phones-header__phone _icon-footer-phone"
+                          >8-800-743-12-65</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <a href="#callback1" class="phones-header__callback popup-link"> Заказать звонок </a>
+              </div>
+              <a
+                href="#"
+                data-da=".top-header__container,991,2"
+                class="actions-header__favorite _icon-favorite"
+              ></a>
+              <a data-da=".top-header__container,991,2" href="#" class="actions-header__cart cart-header">
+                <div class="cart-header__icon _icon-cart">
+                  <span>0</span>
+                </div>
+                <div class="cart-header__body">
+                  <div class="cart-header__summ">0 р.</div>
+                  <div class="cart-header__link">Оформить заказ</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="header__catalog catalog-header">
+          <div class="catalog-header__container _container">
+            <nav class="catalog-header__menu menu-catalog">
+              <button type="button" class="menu-catalog__back _icon-back">Назад</button>
+              <ul class="menu-catalog__list">
+                <li class="menu-catalog__item">
+                  <button data-parent="1" class="menu-catalog__link">Каталог Ножей</button>
+                </li>
+                <li class="menu-catalog__item">
+                  <button data-parent="2" class="menu-catalog__link">Клинковое оружие</button>
+                </li>
+                <li class="menu-catalog__item">
+                  <button data-parent="3" class="menu-catalog__link">Сувенирные изделия</button>
+                </li>
+                <li class="menu-catalog__item">
+                  <button data-parent="4" class="menu-catalog__link">Фонари ARMYTEK</button>
+                </li>
+                <li class="menu-catalog__item">
+                  <button data-parent="5" class="menu-catalog__link">Сопуствующие товары</button>
+                </li>
+              </ul>
+              <div class="menu-catalog__sub-menu sub-menu-catalog">
+                <button type="button" class="sub-menu-catalog__back _icon-back">Назад</button>
+                <div class="sub-menu-catalog__container _container">
+                  <div hidden data-submenu="1" class="sub-menu-catalog__block">
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Категория ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Производство ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Ножи по маркам стали </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Заточка и полировка ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Ножевая мастерская </a>
+                    </div>
+
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Разделочные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Туристические ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи охотничьи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булатные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из дамаска</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Тактического назначения</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Метательные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Мачете и кукри</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи кухонные</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи АИР</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗИК</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗЗОСС</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи РОСоружие</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Оружейник</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Сергея Баранова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Андрея Умерова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Златко</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Стиль-М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Оружейная компания</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 40х102С2М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 95х18</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 100х13м</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 110х18м-ШД</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали ЭИ-107 ТЦ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 50х14МФ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали AUS-8</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали К340</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали M390</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали ЭП-766</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Паста ГОИ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Алмазная паста</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Бруски и камни для заточки</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Заточные системы</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножевые клинки</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Заготовки для ножей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Литье для ножей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Материалы для рукоятей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Уход за рукоятиями ножей</a>
+                      </li>
+                    </ul>
+
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                  </div>
+                  <div hidden data-submenu="2" class="sub-menu-catalog__block">
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Категория ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Производство ножей </a>
+                    </div>
+
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Разделочные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Туристические ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи охотничьи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булатные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из дамаска</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Тактического назначения</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Метательные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Мачете и кукри</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи кухонные</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи АИР</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗИК</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗЗОСС</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи РОСоружие</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Оружейник</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Сергея Баранова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Андрея Умерова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Златко</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Стиль-М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Оружейная компания</a>
+                      </li>
+                    </ul>
+
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                  </div>
+                  <div hidden data-submenu="3" class="sub-menu-catalog__block">
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Категория ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Производство ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Ножи по маркам стали </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Заточка и полировка ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Ножевая мастерская </a>
+                    </div>
+
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Разделочные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Туристические ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи охотничьи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булатные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из дамаска</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Тактического назначения</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Метательные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Мачете и кукри</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи кухонные</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи АИР</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗИК</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗЗОСС</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи РОСоружие</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Оружейник</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Сергея Баранова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Андрея Умерова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Златко</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Стиль-М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Оружейная компания</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 40х102С2М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 95х18</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 100х13м</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 110х18м-ШД</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали ЭИ-107 ТЦ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 50х14МФ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали AUS-8</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали К340</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали M390</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали ЭП-766</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Паста ГОИ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Алмазная паста</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Бруски и камни для заточки</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Заточные системы</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножевые клинки</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Заготовки для ножей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Литье для ножей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Материалы для рукоятей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Уход за рукоятиями ножей</a>
+                      </li>
+                    </ul>
+
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                  </div>
+                  <div hidden data-submenu="4" class="sub-menu-catalog__block">
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Категория ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Производство ножей </a>
+                    </div>
+
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Разделочные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Туристические ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи охотничьи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булатные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из дамаска</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Тактического назначения</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Метательные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Мачете и кукри</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи кухонные</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи АИР</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗИК</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗЗОСС</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи РОСоружие</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Оружейник</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Сергея Баранова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Андрея Умерова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Златко</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Стиль-М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Оружейная компания</a>
+                      </li>
+                    </ul>
+
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                  </div>
+                  <div hidden data-submenu="5" class="sub-menu-catalog__block">
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Категория ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Производство ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Ножи по маркам стали </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Заточка и полировка ножей </a>
+                    </div>
+                    <div class="sub-menu-catalog__category">
+                      <a href="#" class="sub-menu-catalog__link-category"> Ножевая мастерская </a>
+                    </div>
+
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Разделочные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Туристические ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи охотничьи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булатные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из дамаска</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Тактического назначения</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Метательные ножи</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Мачете и кукри</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи кухонные</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи АИР</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗИК</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи ЗЗОСС</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи РОСоружие</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Оружейник</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Сергея Баранова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Булат Андрея Умерова</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Златко</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи Стиль-М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Оружейная компания</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 40х102С2М</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 95х18</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 100х13м</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 110х18м-ШД</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали ЭИ-107 ТЦ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали 50х14МФ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали AUS-8</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали К340</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали M390</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножи из стали ЭП-766</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Паста ГОИ</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Алмазная паста</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Бруски и камни для заточки</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Заточные системы</a>
+                      </li>
+                    </ul>
+                    <ul class="sub-menu-catalog__list">
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Ножевые клинки</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Заготовки для ножей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Литье для ножей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Материалы для рукоятей</a>
+                      </li>
+                      <li class="sub-menu-catalog__item">
+                        <a href="#" class="sub-menu-catalog__link">Уход за рукоятиями ножей</a>
+                      </li>
+                    </ul>
+
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                    <div class="sub-menu-catalog__footer">
+                      <a href="#" class="sub-menu-catalog__all"> Смотреть Все </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="popup" id="callback1">
+        <div class="popup__wrapper">
+          <div class="popup__content">
+            <button type="button" class="popup__close close-popup">×</button>
+
+            <form action="#" class="popup__body footer-subscribe">
+              <label for="subscribe-input-popup" class="footer-subscribe__label"
+                >Введите ваш номер телефона <br />
+                и мы вам перезвоним!</label
+              >
+              <div class="footer-subscribe__line">
+                <input
+                  id="subscribe-input-popup"
+                  placeholder="Ваш номер телефона"
+                  type="text"
+                  class="footer-subscribe__input"
+                />
+
+                <button type="submit" class="footer-subscribe__button _icon-footer-phone"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <main class="page page_inner">
+        <div class="page__header">
+          <div class="page__container _container">
+            <nav class="page__breadcrumps breadcrumps">
+              <ul class="breadcrumps__list">
+                <li class="breadcrumps__item">
+                  <a href="#" class="breadcrumps__link">Главная</a>
+                </li>
+                <li class="breadcrumps__item">
+                  <a href="#" class="breadcrumps__link">Разделочные ножи</a>
+                </li>
+                <li class="breadcrumps__item">
+                  <span class="breadcrumps__current">Нож Cнегирь</span>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="product">
+          <div class="product__container _container">
+            <div class="product__main main-product">
+              <div class="main-product__images images-product">
+                <div class="images-product__slider swiper">
+                  <div class="images-product__swiper swiper-wrapper">
+                    <div class="images-product__slide swiper-slide">
+                      <div class="images-product__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="images-product__slide swiper-slide">
+                      <div class="images-product__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="images-product__slide swiper-slide">
+                      <div class="images-product__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="images-product__slide swiper-slide">
+                      <div class="images-product__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="images-product__slide swiper-slide">
+                      <div class="images-product__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="images-product__thumbs thumbs-images swiper">
+                  <div class="thumbs-images__swiper swiper-wrapper">
+                    <div class="thumbs-images__slide swiper-slide">
+                      <div class="thumbs-images__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="thumbs-images__slide swiper-slide">
+                      <div class="thumbs-images__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="thumbs-images__slide swiper-slide">
+                      <div class="thumbs-images__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="thumbs-images__slide swiper-slide">
+                      <div class="thumbs-images__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                    <div class="thumbs-images__slide swiper-slide">
+                      <div class="thumbs-images__slide-wrapper _ibg">
+                        <img src="img/product/1.jpg" alt="image" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-product__body body-product">
+                <div class="body-product__header header-product">
+                  <div class="header-product__line">
+                    <h1 class="header-product__title">Нож Снегирь</h1>
+                    <a href="#" class="header-product__link _icon-compare"></a>
+                    <a href="#" class="header-product__link _icon-favorite"></a>
+                  </div>
+                  <div class="header-product__rating rating">
+                    <div class="rating__body">
+                      <div class="rating__active"></div>
+                      <div class="rating__items">
+                        <input type="radio" class="rating__item" value="1" name="rating" />
+                        <input type="radio" class="rating__item" value="2" name="rating" />
+                        <input type="radio" class="rating__item" value="3" name="rating" />
+                        <input type="radio" class="rating__item" value="4" name="rating" />
+                        <input type="radio" class="rating__item" value="5" name="rating" />
+                      </div>
+                    </div>
+                    <div class="rating__value">3.3</div>
+                    <!-- <div class="rating__info">12 отзывов</div> -->
+                  </div>
+                </div>
+                <div class="body-product__table table-product">
+                  <div class="table-product__label">Артикул:</div>
+                  <div class="table-product__value">AF0000001952</div>
+                  <div class="table-product__label">Торговая марка:</div>
+                  <div class="table-product__value">WUESTHOF (Германия)</div>
+                  <div class="table-product__label">Серия:</div>
+                  <div class="table-product__value">Ножи серии Classic Ikon</div>
+                  <div class="table-product__label">Бонусные баллы:</div>
+                  <div class="table-product__value">38</div>
+                </div>
+                <div class="body-product__options options-product">
+                  <div class="options-product__label">Cталь</div>
+                  <div class="options-product__value">
+                    <select>
+                      <option value="1" selected>Выбрать сталь</option>
+                      <option value="1">Классическая</option>
+                      <option value="1">Прочная</option>
+                      <option value="1">Чёрная</option>
+                    </select>
+                  </div>
+
+                  <div class="options-product__label">Рукоять</div>
+                  <div class="options-product__value">
+                    <select>
+                      <option value="1" selected>Выбрать рукоять</option>
+                      <option value="1">Классическая</option>
+                      <option value="1">Прочная</option>
+                      <option value="1">Чёрная</option>
+                    </select>
+                  </div>
+
+                  <div class="options-product__label">Гарда и тыльник</div>
+                  <div class="options-product__value">
+                    <select>
+                      <option value="1" selected>Выбрать гарда и тыльник</option>
+                      <option value="1">Классическая</option>
+                      <option value="1">Прочная</option>
+                      <option value="1">Чёрная</option>
+                    </select>
+                  </div>
+
+                  <div class="options-product__label">Обработка клинка</div>
+                  <div class="options-product__value">
+                    <select>
+                      <option value="1" selected>Выбрать обработку</option>
+                      <option value="1">Классическая</option>
+                      <option value="1">Прочная</option>
+                      <option value="1">Чёрная</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="body-product__actions actions-product">
+                  <div class="actions-product__price">3 865</div>
+                  <div class="actions-product__row">
+                    <div class="actions-product__quantity quantity">
+                      <button
+                        type="button"
+                        id="decrease"
+                        value="Decrease Value"
+                        class="quantity__button quantity__button_plus"
+                      >
+                        -
+                      </button>
+                      <div class="quantity__input"><input id="number" type="text" / value="1"></div>
+                      <button
+                        type="button"
+                        id="increase"
+                        value="Increase Value"
+                        class="quantity__button quantity__button_minus"
+                      >
+                        +
+                      </button>
+                    </div>
+                    <div class="actions-product__buttons">
+                      <a href="#" class="actions-product__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </a>
+                      <a href="#" class="actions-product__button button button_black"> Купить в 1 клик </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="product__info product-info">
+              <div class="product-info__tabs tabs">
+                <input type="radio" name="tabs" id="tab1" checked="checked" class="tabs__input" />
+                <label for="tab1" id="tab1-label" class="tabs__label">Описание</label>
+                <div id="tab1-content" class="tabs__content">
+                  <div class="tabs__content-wrapper tabs__content-wrapper_mod">
+                    <p class="tabs__info-text">
+                      Легкий удобный <strong>нож с клинком,</strong> имеющим пологие вогнутые линзовидные
+                      <strong> спуски на две трети ширины клинка, </strong> образующие тонкое, прекрасно
+                      режущее лезвие толщиной <strong>около 0,6</strong> мм в районе подводов.
+                    </p>
+
+                    <p class="tabs__info-text">
+                      <strong>Обух клинка со спинкой рукояти</strong> имеет одну плавную дугообразную линию.
+                      На пяте перед рукоятью есть подпальцевый <strong>вырез для точных работ.</strong>
+                    </p>
+
+                    <p class="tabs__info-text">
+                      Необходимо проявлять некоторую осторожность при работе с большими боковыми нагрузками на
+                      лезвие ножа, ввиду небольшой толщины клинка в рабочей части.
+                    </p>
+                    <p class="tabs__info-text">
+                      Монтаж рукояти накладной <strong>плашечный.</strong> На навершии рукояти, функцию
+                      которого выполняет выступающий из под плашек хвостовик, имеется отверстие под темляк.
+                      Этот нож удобный помощник при работе
+                      <strong>с продуктами и охоте на боровую и водоплавающую дичь.</strong>
+                    </p>
+                  </div>
+                </div>
+
+                <input type="radio" name="tabs" id="tab2" class="tabs__input" />
+                <label for="tab2" id="tab2-label" class="tabs__label">Характеристики</label>
+                <div id="tab2-content" class="tabs__content">
+                  <div class="tabs__content-wrapper">
+                    <div class="tabs__characteristics characteristics-tab">
+                      <div class="characteristics-tab__column">
+                        <h4 class="characteristics-tab__title">Технические характеристики</h4>
+                        <div class="characteristics-tab__items">
+                          <div class="characteristics-tab__item">
+                            <div class="characteristics-tab__name">Общая длина, мм:</div>
+                            <div class="characteristics-tab__value">227</div>
+                          </div>
+                          <div class="characteristics-tab__item">
+                            <div class="characteristics-tab__name">Длина клинка, мм:</div>
+                            <div class="characteristics-tab__value">112</div>
+                          </div>
+                          <div class="characteristics-tab__item">
+                            <div class="characteristics-tab__name">Ширина клинка, мм:</div>
+                            <div class="characteristics-tab__value">24</div>
+                          </div>
+                          <div class="characteristics-tab__item">
+                            <div class="characteristics-tab__name">Толщина обуха, мм:</div>
+                            <div class="characteristics-tab__value">2.9</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="characteristics-tab__column">
+                        <h4 class="characteristics-tab__title">Используемые материалы</h4>
+                        <div class="characteristics-tab__items">
+                          <div class="characteristics-tab__item">
+                            <div class="characteristics-tab__name">Сталь:</div>
+                            <div class="characteristics-tab__value">95Х18</div>
+                          </div>
+                          <div class="characteristics-tab__item">
+                            <div class="characteristics-tab__name">Рукоять:</div>
+                            <div class="characteristics-tab__value">Накладки карельская береза</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="characteristics-tab__column">
+                        <h4 class="characteristics-tab__title">Производство</h4>
+                        <div class="characteristics-tab__items">
+                          <div class="characteristics-tab__item">
+                            <div class="characteristics-tab__name">Производство:</div>
+                            <div class="characteristics-tab__value">АиР</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <input type="radio" name="tabs" id="tab3" class="tabs__input" />
+                <label for="tab3" id="tab3-label" class="tabs__label">Отзывы</label>
+                <div id="tab1-content" class="tabs__content">
+                  <div class="tabs__content-wrapper">
+                    <div class="tabs__comments">
+                      <div class="tabs__none-comment">
+                        У данного товара нет отзывов. Станьте первым, кто оставил отзыв об этом товаре!
+                      </div>
+                      <button type="button" class="tabs__write-comment button button_black">
+                        Написать отзыв
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <input type="radio" name="tabs" id="tab4" class="tabs__input" />
+                <label for="tab4" id="tab4-label" class="tabs__label">Доставка</label>
+                <div id="tab1-content" class="tabs__content">
+                  <div class="tabs__content-wrapper">
+                    <div class="tabs__delivery delivery-block">
+                      <div class="delivery-block__item">
+                        <div class="delivery-block__label">Ваша страна</div>
+
+                        <select name="delivery-country" id="delivery-1" class="delivery-block__select">
+                          <option value="Russia" selected class="delivery-block__option">Россия</option>
+                          <option value="China" class="delivery-block__option">Китай</option>
+                          <option value="Japan" class="delivery-block__option">Япония</option>
+                          <option value="USA" class="delivery-block__option">USA</option>
+                          <option value="Germany" class="delivery-block__option">Германия</option>
+                        </select>
+                      </div>
+                      <div class="delivery-block__item">
+                        <div class="delivery-block__label">Ваш город</div>
+
+                        <select name="delivery-city" id="delivery-2" class="delivery-block__select">
+                          <option value="Russia" selected class="delivery-block__option">Москва</option>
+                          <option value="China" class="delivery-block__option">Воронеж</option>
+                          <option value="Japan" class="delivery-block__option">Санкт-Петербург</option>
+                          <option value="USA" class="delivery-block__option">Пермь</option>
+                          <option value="Germany" class="delivery-block__option">Нижний Новгород</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="products-slider">
+          <div class="products-slider__container _container">
+            <div class="products-slider__header">
+              <h2 class="products-slider__title">Похожие товары</h2>
+              <a href="#" class="products-slider__more">Подробнее</a>
+            </div>
+            <div class="products-slider__slider swiper">
+              <div class="products-slider__swiper swiper-wrapper">
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/image.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">Нож Лиса</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/2.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">Фонарь</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/image.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">Нож Лиса</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/2.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">Фонарь</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/image.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">Нож Лиса</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/2.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">Фонарь</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/image.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">Нож Лиса</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+                <div class="products-slider__slide swiper-slide">
+                  <article class="product-card">
+                    <a href="" class="product-card__image">
+                      <span class="product-card__item-image _ibg">
+                        <img src="img/product-card/2.jpg" alt="Картинка" />
+                      </span>
+                    </a>
+                    <div class="product-card__body">
+                      <h4 class="product-card__title">
+                        <a href="#" class="product-card__link-title">ФОнарь</a>
+                      </h4>
+                      <div class="product-card__info info-product-card">
+                        <div class="info-product-card__size">95x18</div>
+                        <div class="info-product-card__materials">Орех, Алюминий</div>
+                      </div>
+                      <div class="product-card__rating rating">
+                        <div class="rating__body">
+                          <div class="rating__active"></div>
+                          <div class="rating__items">
+                            <input type="radio" class="rating__item" value="1" name="rating" />
+                            <input type="radio" class="rating__item" value="2" name="rating" />
+                            <input type="radio" class="rating__item" value="3" name="rating" />
+                            <input type="radio" class="rating__item" value="4" name="rating" />
+                            <input type="radio" class="rating__item" value="5" name="rating" />
+                          </div>
+                        </div>
+                        <div class="rating__value">3.6</div>
+                        <div class="rating__info">12 отзывов</div>
+                      </div>
+                      <div class="product-card__footer">
+                        <div class="product-card__price">2 719 р.</div>
+                        <a href="#" class="product-card__compare _icon-compare"></a>
+                        <a href="#" class="product-card__favorite _icon-favorite"></a>
+                      </div>
+                      <button type="button" class="product-card__cart button">
+                        <span class="_icon-cart">В корзину</span>
+                      </button>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="products-slider__dotts dotts swiper-pagination"></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="page__hits-products hits-products hits-products_mod">
+          <section class="products-slider">
+            <div class="products-slider__container _container">
+              <div class="products-slider__header">
+                <h2 class="products-slider__title">Рекомендуем</h2>
+                <a href="#" class="products-slider__more">Подробнее</a>
+              </div>
+              <div class="products-slider__slider swiper">
+                <div class="products-slider__swiper swiper-wrapper">
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/image.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">Нож Лиса</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/2.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">Фонарь</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/image.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">Нож Лиса</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/2.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">Фонарь</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/image.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">Нож Лиса</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/2.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">Фонарь</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/image.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">Нож Лиса</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="products-slider__slide swiper-slide">
+                    <article class="product-card">
+                      <a href="" class="product-card__image">
+                        <span class="product-card__item-image _ibg">
+                          <img src="img/product-card/2.jpg" alt="Картинка" />
+                        </span>
+                      </a>
+                      <div class="product-card__body">
+                        <h4 class="product-card__title">
+                          <a href="#" class="product-card__link-title">ФОнарь</a>
+                        </h4>
+                        <div class="product-card__info info-product-card">
+                          <div class="info-product-card__size">95x18</div>
+                          <div class="info-product-card__materials">Орех, Алюминий</div>
+                        </div>
+                        <div class="product-card__rating rating">
+                          <div class="rating__body">
+                            <div class="rating__active"></div>
+                            <div class="rating__items">
+                              <input type="radio" class="rating__item" value="1" name="rating" />
+                              <input type="radio" class="rating__item" value="2" name="rating" />
+                              <input type="radio" class="rating__item" value="3" name="rating" />
+                              <input type="radio" class="rating__item" value="4" name="rating" />
+                              <input type="radio" class="rating__item" value="5" name="rating" />
+                            </div>
+                          </div>
+                          <div class="rating__value">3.6</div>
+                          <div class="rating__info">12 отзывов</div>
+                        </div>
+                        <div class="product-card__footer">
+                          <div class="product-card__price">2 719 р.</div>
+                          <a href="#" class="product-card__compare _icon-compare"></a>
+                          <a href="#" class="product-card__favorite _icon-favorite"></a>
+                        </div>
+                        <button type="button" class="product-card__cart button">
+                          <span class="_icon-cart">В корзину</span>
+                        </button>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="products-slider__dotts dotts swiper-pagination"></div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <section class="footer__text text-footer">
+          <div class="text-footer__container _container">
+            <h1 class="text-footer__title">Златоустовские ножи интернет-магазин "ЗЛАТМАКС"</h1>
+            <div class="text-footer__text">
+              Наш интернет-магазин "ЗЛАТМАКС" предлагает Вам ножи очень высокого качества из города
+              оружейников - Златоуста. Златоустовские ножи известны и популярны среди потребителей как на
+              российским рынке, так и за рубежом: ножи охотничьи, хозяйственные, туристические, рыбацкие,
+              складные и метательные. Нож Златоуста - это идеальный друг и товарищ в повседневной жизни и в
+              экстремальных ситуациях. На многую продукцию распространяется гарантия до 10 лет - это один из
+              главных показателей качества. Для Вас на нашем сайте "zlatmax" предложен огромный ассортимент
+              Златоустовских ножей. Наши менеджеры помогут определиться и подобрать самый лучший
+              Златоустовский нож, ориентируясь на Ваши пожелания.
+            </div>
+          </div>
+        </section>
+        <div class="footer__container _container">
+          <div class="footer__body body-footer">
+            <div class="body-footer__row">
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">Информация</button>
+                    <div class="spoller-item-footer__body">
+                      <nav class="menu-footer">
+                        <ul class="menu-footer__list">
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link">
+                              Златоустовские ножи в Москве и Московской области
+                            </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Ножевые стали </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> О нас </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Условия оплаты и доставки </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Политика конфиденциальности </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">
+                      СЛУЖБА ПОДДЕРЖКИ
+                    </button>
+                    <div class="spoller-item-footer__body">
+                      <nav class="menu-footer">
+                        <ul class="menu-footer__list">
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Контактная информация </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Возврат товара </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Карта сайта </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">
+                      ДОПОЛНИТЕЛЬНО
+                    </button>
+                    <div class="spoller-item-footer__body">
+                      <nav class="menu-footer">
+                        <ul class="menu-footer__list">
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Подарочные сертификаты </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Партнеры </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Товары со скидкой </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">
+                      ЛИЧНЫЙ КАБИНЕТ
+                    </button>
+                    <div class="spoller-item-footer__body">
+                      <nav class="menu-footer">
+                        <ul class="menu-footer__list">
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Личный кабинет </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> История заказов </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Мои закладки </a>
+                          </li>
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Рассылка новостей </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body-footer__row">
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">КОНТАКТЫ</button>
+                    <div class="spoller-item-footer__body">
+                      <nav class="menu-footer">
+                        <ul class="menu-footer__list">
+                          <li class="menu-footer__item _icon-footer-phone">
+                            <a href="tel:8800777-49-67" class="menu-footer__link"> 8 (800) 777-49-67 </a>
+                          </li>
+                          <li class="menu-footer__item _icon-footer-clock">
+                            <div class>
+                              <p>Пн-Пт</p>
+                              <p>7:00 - 16:00 (МСК)</p>
+                            </div>
+                          </li>
+                          <li class="menu-footer__item _icon-footer-location">
+                            <div>
+                              <p>Златоуст,</p>
+                              <p>ул. Шоссейная,</p>
+                              <p>д. 1, офис «6Б»</p>
+                            </div>
+                          </li>
+                          <li class="menu-footer__item _icon-footer-email">
+                            <a href="mailto:info@zlatmax.ru" class="menu-footer__link"> info@zlatmax.ru </a>
+                          </li>
+                        </ul>
+                      </nav>
+
+                      <ul class="social-footer">
+                        <li class="social-footer__item">
+                          <a href="" class="social-footer__link">
+                            <img src="img/social/facebook2.svg" alt="" />
+                          </a>
+                        </li>
+                        <li class="social-footer__item">
+                          <a href="" class="social-footer__link">
+                            <img src="img/social/twitter.svg" alt="" />
+                          </a>
+                        </li>
+                        <li class="social-footer__item">
+                          <a href="" class="social-footer__link">
+                            <img src="img/social/tiktok.svg" alt="" />
+                          </a>
+                        </li>
+                        <li class="social-footer__item">
+                          <a href="" class="social-footer__link">
+                            <img src="img/social/whatsapp.svg" alt="" />
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">
+                      Полезные ссылки
+                    </button>
+                    <div class="spoller-item-footer__body">
+                      <nav class="menu-footer">
+                        <ul class="menu-footer__list">
+                          <li class="menu-footer__item">
+                            <a href="#" class="menu-footer__link"> Способы оплаты и доставки </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">
+                      НАША ГАРАНТИЯ
+                    </button>
+                    <div class="spoller-item-footer__body">
+                      <div class="spoller-item-footer__text">
+                        Недовольны своей покупкой? <br />
+                        Вы можете вернуть ее в течении <br />
+                        30 дней с даты получения, <br />
+                        согласно <a href="#"> нашим правилам </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="body-footer__item item-footer">
+                <div data-spollers="767.98" class="item-footer__spoller spoller-item-footer">
+                  <div class="spoller-item-footer__item">
+                    <button data-spoller class="spoller-item-footer__title" type="button">
+                      Новостная рассылка
+                    </button>
+                    <form action="#" class="spoller-item-footer__body footer-subscribe">
+                      <label for="subscribe-input" class="footer-subscribe__label"
+                        >Подпишитесь прямо сейчас!</label
+                      >
+                      <div class="footer-subscribe__line">
+                        <input
+                          id="subscribe-input"
+                          placeholder="example@gmail.com"
+                          type="text"
+                          class="footer-subscribe__input"
+                        />
+                        <button type="submit" class="footer-subscribe__button _icon-arrow-bottom"></button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body-footer__bottom">
+              <div class="body-footer__rules">
+                Все материалы, размещенные на сайте, носят справочный характер и не являются публичной
+                офертой, определяемойположениями Статьи 437 Гражданского кодекса Российской Федерации. При
+                копировании материалов гиперссылка на www.zlatmax.ru обязательна!
+              </div>
+              <div class="body-footer__copy">
+                Златоустовские ножи <a href="www.zlatmax.ru">www.zlatmax.ru ©</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20220919171922"></script>
+    <script src="js/app.min.js?_v=20220919171922"></script>
+  </body>
+</html>
