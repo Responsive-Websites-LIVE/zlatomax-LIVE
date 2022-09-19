@@ -361,6 +361,9 @@ main {
   -ms-flex-align: center;
   align-items: center;
 }
+.breadcrumps__link:hover {
+  text-decoration: underline;
+}
 .breadcrumps__link::after {
   content: '\e900';
   -webkit-transform: rotate(-90deg);
